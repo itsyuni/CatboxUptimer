@@ -1,0 +1,6 @@
+1. Read Requirements your Server: https://11uptime.com/docs/
+2. Import database.sql
+3. Edit file config.php and add infor your database and domain
+5. 
+Login: admin
+Pass: admin

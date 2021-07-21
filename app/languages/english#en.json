@@ -1,0 +1,1874 @@
+{
+	"global": {
+		"submit"						: "Submit",
+		"create"						: "Create",
+		"delete"						: "Delete",
+		"edit"							: "Edit",
+		"view"							: "View",
+		"cancel"						: "Cancel",
+		"update"						: "Update",
+		"enable"						: "Enable",
+		"hidden"						: "Hidden",
+		"login"							: "Login",
+		"language"						: "Language",
+		"choose_language"				: "Choose Language",
+		"theme_style"					: "Switch to %s Mode",
+		"theme_style_light"				: "Light",
+		"theme_style_dark"				: "Dark",
+		"close"							: "Close",
+		"search"						: "Search",
+		"no_data"						: "No data available..",
+		"yes"							: "Yes",
+		"no"							: "No",
+		"active"						: "Active",
+		"disabled"						: "Disabled",
+		"export"						: "Export",
+		"export_csv"					: "Export to CSV",
+		"export_json"					: "Export to JSON",
+		"export_pdf"					: "Export to PDF",
+		"captcha_placeholder"			: "Captcha text",
+		"loading"						: "Loading..",
+		"view_more"						: "View more",
+		"view_x_more"					: "View %s more..",
+		"clipboard_copy"				: "Copy to clipboard",
+		"clipboard_copied"				: "Copied!",
+		"terms_and_conditions"			: "Terms and Conditions",
+		"privacy_policy"				: "Privacy Policy",
+		"delete_file"					: "Delete uploaded file",
+		"bulk_actions"					: "Bulk actions",
+
+		"info_message": {
+            "user_plan_is_expired"   	: "Your current plan has expired and your access is limited. Please get a new plan!",
+			"plan_feature_no_access"	: "Your current plan does not allow you to access this feature."
+		},
+
+		"success_message": {
+			"basic"						: "Your requested command was performed successfully!"
+		},
+
+		"error_message": {
+			"directory_not_writable"	: "Directory is not writable <strong>%s</strong>. Make sure to give it the proper CHMOD permissions.",
+			"file_not_writable"			: "File is not writable <strong>%s</strong>. Make sure to give it the proper CHMOD permissions.",
+			"empty_fields"				: "You must fill all the fields!",
+			"empty_field"				: "This field is required, you must fill it!",
+			"invalid_captcha"			: "The captcha code is not valid!",
+			"invalid_file_type"			: "Invalid file type!",
+			"invalid_csrf_token"		: "The action could not be finished because the protector has expired, please try again!",
+			"basic"						: "For some reason we could not perform this action.",
+			"file_size_limit"			: "Your uploaded file is too big, the maximum file size you are allowed to upload is %s MB."
+		},
+
+		"menu": {
+			"logout"					: "Logout",
+			"admin"						: "Admin",
+			"website"					: "Visit website",
+			"account_plan_expires"		: "%s ends on %s.",
+			"account_plan_renews"		: "%s renews on %s."
+		},
+
+		"accessibility": {
+			"toggle_navigation"			: "Toggle navigation",
+			"logo_alt"					: "Website Logo",
+			"captcha_alt"				: "Captcha",
+			"captcha_input"				: "Captcha Field"
+		},
+
+		"pagination": {
+			"previous"					: "Previous",
+			"next"						: "Next",
+			"results"					: "Showing %s-%s out of %s results."
+		},
+
+		"filters": {
+			"header"					: "Filters",
+			"reset"						: "Reset",
+			"search"					: "Search",
+			"search_by"					: "Search by",
+			"status"					: "Status",
+			"order_by"					: "Order by",
+			"order_by_datetime"			: "Created datetime",
+			"order_type"				: "Order type",
+			"order_type_asc"			: "Ascending",
+			"order_type_desc"			: "Descending",
+			"all"						: "All",
+			"results_per_page"			: "Results per page"
+		},
+
+        "date": {
+			"CHANGE_THOSE_AT_YOUR_OWN_RESPONSIBILITY": "",
+			"datetime_readable_format"	: "%1$s %2$s, %3$s",
+			"datetime_small_readable_format": "%1$s %2$s",
+			"datetime_ymd_format"		: "%1$s-%2$s-%3$s",
+			"datetime_his_format"		: "%1$s:%2$s:%3$s",
+			"datetime_ymd_his_format"	: "%1$s-%2$s-%3$s %4$s:%5$s:%6$s",
+
+			"now"						: "now",
+			"cancel"					: "Cancel",
+			"apply"						: "Apply",
+			"from"						: "From",
+			"to"						: "To",
+			"custom"					: "Custom",
+			"today"						: "Today",
+			"yesterday"					: "Yesterday",
+			"last_7_days"				: "Last 7 days",
+			"last_30_days"				: "Last 30 days",
+			"this_month"				: "This month",
+			"last_month"				: "Last month",
+			"all_time"					: "All time",
+
+			"short_milliseconds"		: "ms",
+			"short_seconds"				: "s",
+			"second"					: "second",
+			"seconds"					: "seconds",
+			"minute"					: "minute",
+			"minutes"					: "minutes",
+			"hour"						: "hour",
+			"hours"						: "hours",
+			"day"						: "day",
+			"days"						: "days",
+			"month"						: "month",
+			"months"					: "months",
+			"year"						: "year",
+			"years"						: "years",
+			"time_ago"					: "%1$s %2$s ago",
+			"time_until"				: "%1$s %2$s until",
+
+			"long_days": {
+				"1"						: "Monday",
+				"2"						: "Tuesday",
+				"3"						: "Wednesday",
+				"4"						: "Thursday",
+				"5"						: "Friday",
+				"6"						: "Saturday",
+				"7"						: "Sunday"
+			},
+
+			"short_days": {
+				"1"						: "Mon",
+				"2"						: "Tue",
+				"3"						: "Wed",
+				"4"						: "Thu",
+				"5"						: "Fri",
+				"6"						: "Sat",
+				"7"						: "Sun"
+			},
+
+			"long_months": {
+				"1"						: "January",
+				"2"						: "February",
+				"3"						: "March",
+				"4"						: "April",
+				"5"						: "May",
+				"6"						: "June",
+				"7"						: "July",
+				"8"						: "August",
+				"9"						: "September",
+				"10"					: "October",
+				"11"					: "November",
+				"12"					: "December"
+			},
+
+			"short_months": {
+				"1"						: "Jan",
+				"2"						: "Feb",
+				"3"						: "Mar",
+				"4"						: "Apr",
+				"5"						: "May",
+				"6"						: "Jun",
+				"7"						: "Jul",
+				"8"						: "Aug",
+				"9"						: "Sep",
+				"10"					: "Oct",
+				"11"					: "Nov",
+				"12"					: "Dec"
+			}
+        },
+
+        "number": {
+            "decimal_point"				: ".",
+            "thousands_separator"		: ","
+        },
+
+		"emails": {
+			"user_activation": {
+				"subject"				: "Confirm your new account - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />We are glad you joined us! <br /><br />One more step and you are ready,<br /><br />you just need to click the following link in order to join {{WEBSITE_TITLE}}<br /><br /><a href=\"{{ACTIVATION_LINK}}\">Activate your account</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_pending_email": {
+				"subject"				: "Confirm your email address change - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />You have requested to change your email address from {{CURRENT_EMAIL}} to {{NEW_EMAIL}}. <br /><br />Please click on the link below to confirm your new email address. <br /><br /><a href=\"{{ACTIVATION_LINK}}\">Confirm email address change</a><br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_lost_password": {
+				"subject"				: "Reset your password - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />This is your reset password link: <a href=\"{{LOST_PASSWORD_LINK}}\">Reset Password</a><br /><br />If you did not request this, you can ignore it!<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_payment": {
+				"subject"				: "Payment received - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />This is a confirmation that your payment has been received by us.<br /><br />Your account plan is now paid until {{PLAN_EXPIRATION_DATE}}!<br /><br />You can also check all the <a href=\"{{USER_PAYMENTS_LINK}}\">payments</a> you made, <a href=\"{{USER_PLAN_LINK}}\">change your plan</a> or <a href=\"{{USER_PLAN_LINK}}\">cancel it</a>.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"user_affiliate_withdrawal_approved": {
+				"subject"				: "Affiliate withdrawal approved - {{WEBSITE_TITLE}}",
+				"body"					: "Hey there {{NAME}},<br /><br />This is a confirmation that your recent affiliate withdrawal of <strong>{{AMOUNT}} {{CURRENCY}}</strong> has been approved and your payment was sent for processing.<br /><br />Greetings from {{WEBSITE_TITLE}}!"
+			},
+
+			"admin_new_user_notification": {
+				"subject"				: "New user registered - {{WEBSITE_TITLE}}",
+				"body"					: "Hey!<br /><br />A new user just registered to the website!<br /><br />Welcome to {{NAME}} ({{EMAIL}}) to your website!"
+			},
+
+			"admin_new_payment_notification": {
+				"subject"				: "New payment via {{PROCESSOR}} of {{TOTAL_AMOUNT}} {{CURRENCY}} - {{WEBSITE_TITLE}}",
+				"body"					: "Hey!<br /><br />{{NAME}} ({{EMAIL}}) user just paid <strong>{{TOTAL_AMOUNT}} {{CURRENCY}}</strong> to your website!<br /><br />Here's to more earnings!"
+			},
+
+			"admin_new_domain_notification": {
+				"subject"				: "New custom domain is pending approval - {{WEBSITE_TITLE}}",
+				"body"					: "Hey!<br /><br />{{NAME}} ({{EMAIL}}) user's custom domain ({{DOMAIN_HOST}}) is now pending approval.<br /><br /> <a href=\"{{ADMIN_DOMAIN_UPDATE_LINK}}\">View domain</a>"
+			}
+		},
+
+		"footer": {
+			"legal"						: "Legal",
+			"pages"						: "Pages",
+			"social"					: "Social",
+			"copyright"					: "Copyright &copy; %s %s"
+		},
+
+        "plan_settings": {
+			"unlimited_monitors_limit"		: "Unlimited monitors",
+			"monitors_limit"				: "%s monitors",
+			"unlimited_heartbeats_limit"	: "Unlimited heartbeats",
+			"heartbeats_limit"				: "%s heartbeats",
+			"unlimited_status_pages_limit"	: "Unlimited status pages",
+			"status_pages_limit"			: "%s status pages",
+			"unlimited_projects_limit"		: "Unlimited projects",
+			"projects_limit"				: "%s projects",
+			"unlimited_domains_limit"		: "Unlimited custom domains",
+			"domains_limit"					: "%s custom domains",
+			"logs_retention"				: "%s days data retention",
+
+			"additional_domains_is_enabled"			: "Additional domains",
+			"additional_domains_is_enabled_help"	: "You get to choose from multiple domains when creating your status page.",
+			"password_protection_is_enabled"		: "Password protection",
+			"password_protection_is_enabled_help"	: "Your status pages can be password protected if needed.",
+			"analytics_is_enabled"					: "Included analytics",
+			"analytics_is_enabled_help"				: "Great status page analytics to see how many visitors you get.",
+			"removable_branding_is_enabled"			: "Removable branding",
+			"removable_branding_is_enabled_help"	: "Your status pages will not have any of our branding on them anymore.",
+			"custom_url_is_enabled"					: "Custom back-half URL",
+			"custom_url_is_enabled_help"			: "You will be able to customize the link URL of your status pages.",
+			"search_engine_block_is_enabled"		: "Block search engine indexing",
+			"search_engine_block_is_enabled_help"	: "You will be able to block SE (like Google) from indexing your status pages.",
+			"custom_css_is_enabled"					: "Custom CSS styling",
+			"custom_css_is_enabled_help"			: "Add your own CSS to your status pages for more customizability.",
+			"custom_js_is_enabled"					: "Custom JS",
+			"custom_js_is_enabled_help"				: "Add your own JavaScript code to your status pages, like a custom tracking code, help chat..etc",
+			"email_reports_is_enabled"				: "Email reports",
+			"email_reports_is_enabled_help"			: "Get frequent email updates about your monitors.",
+			"email_notifications_is_enabled"		: "Email notifications",
+			"email_notifications_is_enabled_help"	: "Get notified when any of your monitors, heartbeats go down or back up.",
+			"twilio_notifications_is_enabled"		: "SMS notifications",
+			"twilio_notifications_is_enabled_help"	: "Get notified via SMS when any of your monitors, heartbeats go down or back up.",
+			"api_is_enabled"						: "API access",
+			"api_is_enabled_help"					: "Get access to use the REST API.",
+			"no_ads"                    			: "No Ads",
+			"no_ads_help"                  			: "You will not see any ads in your dashboard and ads will not be shown to your visitors on your status pages."
+		}
+	},
+
+	"s_status_page": {
+		"breadcrumb"					: "Status page",
+
+		"monitors_status_ok"			: "All systems operational.",
+		"monitors_status_not_ok"		: "We're experiencing some trouble.",
+
+		"total_not_ok_checks"			: "%s failed checks",
+
+		"password": {
+			"title"						: "Password protected status page",
+			"header"					: "Password protected status page",
+			"subheader"					: "You must input the correct password to see the content of the status page. Your password will be remembered for 30 days.",
+
+			"input"						: "Password",
+
+			"error_message"				: "The status page password is incorrect!"
+		},
+
+		"share": {
+			"header"					: "Share via:",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"email"						: "Email",
+			"whatsapp"					: "Whatsapp",
+			"facebook_messenger"		: "Fb Messenger"
+		},
+
+		"no_monitor_logs"				: "There are no statistics logs available for this date range.",
+		"branding"						: "Powered by %s",
+		"timezone"						: "All data is based on the %s timezone."
+	},
+
+	"s_monitor" : {
+		"breadcrumb"					: "%s monitor",
+		"title"							: "%s (%s)",
+		"header"						: "%s monitor",
+
+		"monitor_status_ok"				: "%s is operational.",
+		"monitor_status_not_ok"			: "%s is experiencing some trouble.",
+		"last_check_datetime"			: "Last checked %s.",
+		"total_monitor_logs"			: "Data based on %s checks.",
+
+		"monitor_logs_no_data"			: "There are no logged checks in this time period."
+	},
+
+	"page": {
+		"breadcrumb"					: "Page",
+		"print"							: "Print",
+
+		"estimated_reading_time"		: "%s read",
+		"last_date"						: "Last updated on: %s"
+	},
+
+	"pages": {
+		"title"							: "Pages",
+		"header"						: "Resources center",
+		"subheader"						: "Here you can find useful page resources depending on your needs.",
+		"total_views"					: "(%s views)",
+
+		"index": {
+			"breadcrumb"				: "Pages",
+
+			"popular_pages": {
+				"header"				: "Popular pages"
+			},
+
+			"pages_categories": {
+				"header"				: "Categories",
+				"total_pages"			: "%s available pages"
+			}
+		},
+
+		"pages_category": {
+			"breadcrumb"				: "Pages Category"
+		}
+	},
+
+	"plan": {
+		"breadcrumb"					: "Choose plan",
+		"title"							: "Plan",
+		"menu"							: "Pricing",
+		"header_new"					: "Choose your plan",
+		"subheader_new"					: "Select the most convenient plan for you.",
+		"header_renew"					: "Renew or change your plan",
+		"subheader_renew"				: "Select one plan to renew or change your subscription.",
+		"header_upgrade"				: "Upgrade your plan",
+		"subheader_upgrade"				: "Select one package to upgrade your subscription.",
+
+		"guest": {
+			"price"						: "Guest",
+			"help"						: "No registration required."
+		},
+
+		"free": {
+			"price"						: "Free",
+			"help"						: "No strings attached."
+		},
+
+		"trial": {
+			"price"						: "Trial",
+			"help"						: "No credit card needed."
+		},
+
+		"custom_plan": {
+			"monthly"					: "Monthly",
+			"annual"					: "Annual",
+			"lifetime"					: "Lifetime",
+			"monthly_payments"			: "Monthly payments.",
+			"annual_payments"			: "Annual payments.",
+			"lifetime_payments"			: "Lifetime payments.",
+			"annual_savings"			: "%s %s"
+		},
+
+		"button": {
+			"choose"					: "Choose plan",
+			"disabled"					: "Disabled",
+			"already_free"				: "Your plan"
+		},
+
+		"why": {
+			"header"					: "Why us?",
+			"subheader"					: "",
+
+			"one": {
+				"header"				: "Customer service",
+				"subheader"				: "Our support team will help you with any questions you may have regarding our product."
+			},
+
+			"two": {
+				"header"				: "Privacy",
+				"subheader"				: "We appreciate you and your privacy. This is why you control all the data that you bring with an account on our website."
+			},
+
+			"three": {
+				"header"				: "Quality",
+				"subheader"				: "We focus on delivering the best experience to you, as we fully understand how valuable time is."
+			}
+		},
+
+		"faq": {
+			"header"					: "FAQ",
+			"subheader"					: "Here are the top most asked questions and their straight forward answers.",
+
+			"one": {
+				"header"				: "What forms of payment do you accept?",
+				"text"					: "We accept payments via credit cards (Visa, Mastercard, Maestro, American Express) and PayPal as well."
+			},
+
+			"two": {
+				"header"				: "Can I cancel my subscription?",
+				"text"					: "Yes, you definitely can cancel your subscription and, you will still have access to all the features that you already paid for until the end of paid date range."
+			},
+
+			"three": {
+				"header"				: "Will I get an invoice?",
+				"text"					: "Yes, an invoice will be automatically generated for you after any payments from your account."
+			},
+
+			"four": {
+				"header"				: "Can I have a refund?",
+				"text"					: "We do offer refunds in case something goes wrong or you change your mind, simply contact us if needed."
+			}
+		}
+	},
+
+	"pay_billing": {
+		"breadcrumb"					: "Billing",
+		"title"							: "Billing",
+		"header"						: "Fill in your billing details",
+		"subheader"						: "We require your billing details for generating proper invoices & for tax handling, provide valid billing details only.",
+		"submit"						: "Update & continue to %s checkout"
+	},
+
+	"pay": {
+		"breadcrumb"					: "%s plan",
+		"title"							: "Pay",
+		"plan_details"					: "What you'll get",
+		"accept"						: "By continuing with your order you confirm that you read, understand & agree to the %s and %s of the site.",
+
+		"free": {
+			"free_already"				: "Your already have the free plan activated!",
+			"other_plan_not_expired"	: "Your current plan is not expired yet, you will get the free plan after it expires!"
+		},
+
+		"trial": {
+			"header"					: "Start the %s plan",
+			"subheader"					: "You are almost there.",
+
+			"trial_done"				: "Your trial option was already used, you can't renew it anymore.",
+			"other_plan_not_expired"	: "Your current plan is not expired yet, if you start your trial it will override it!",
+			"trial_start"				: "Start my %s days trial"
+		},
+
+		"custom_plan": {
+			"header"					: "Purchase the %s plan",
+			"subheader"					: "You are almost there, complete the following form and checkout.",
+
+			"paypal"					: "PayPal",
+			"stripe"					: "Stripe",
+			"offline_payment"			: "Offline payment",
+
+			"payment_frequency"			: "Payment frequency",
+			"monthly"					: "Monthly Payments",
+			"annual"					: "Annual Payments",
+			"annual_savings"			: "%s %s",
+			"lifetime"					: "Lifetime deal",
+			"lifetime_help"				: "One time payment",
+
+			"code_button"				: "I have a discount code",
+			"code" 						: "Discount code",
+
+			"payment_processor"			: "Payment method",
+			"no_processor"				: "There are no payment processors available at the moment.",
+			"offline_payment_instructions": "Payment instructions",
+			"offline_payment_proof"		: "Proof of payment",
+			"offline_payment_proof_help": "Upload the proof of payment (jpg, jpeg, png or pdf).",
+
+			"payment_type"				: "Type of payment",
+			"one_time_type"				: "One Time Payment",
+			"recurring_type"            : "Recurring Payment",
+
+			"summary": {
+				"header"				: "Order summary",
+
+				"plan"					: "Plan",
+
+				"payment_frequency"		: "Frequency",
+				"monthly"				: "Monthly",
+				"monthly_help"			: "Every 30 days",
+				"annual"				: "Yearly",
+				"annual_help"			: "Every 365 days",
+				"lifetime"				: "Lifetime",
+				"lifetime_help"			: "",
+
+				"payment_processor"		: "Paid with",
+
+				"payment_type"			: "Type",
+				"one_time"				: "One time",
+				"one_time_help"			: "",
+				"recurring"				: "Recurring",
+				"recurring_help"		: "Automatic billing",
+
+				"plan_price"			: "Price",
+
+				"discount"				: "Discount",
+
+				"tax_inclusive"			: "Inclusive",
+				"tax_exclusive"			: "Exclusive",
+
+				"total"					: "Total"
+			},
+
+			"pay"						: "Checkout"
+		},
+
+		"success_message": {
+			"code"						: "Applied discount code for %s."
+		},
+
+		"error_message": {
+			"code_invalid"				: "This discount code is invalid..",
+			"code_used"					: "You have already used this discount code..",
+			"canceled_payment"			: "It seems you've canceled the payment for some reason.",
+			"failed_payment"			: "Something didn't work quite right, please try again if this persists contact the site admin.",
+			"offline_payment_proof_missing": "You must upload a payment proof before submitting the payment order."
+		}
+	},
+
+	"pay_thank_you" : {
+		"title"							: "Thank you",
+		"header"						: "Thank you!",
+		"button"						: "Go to my dashboard",
+
+		"plan_trial_start"				: "Your trial period just started!",
+		"plan_custom_start"				: "Your payment went through and your new membership is activated!",
+		"plan_custom_will_start" 		: "Your payment was sent and your new membership will be activated!",
+		"plan_custom_pending" 			: "Your payment order was sent and your new membership will be activated if the proof will be accepted!"
+	},
+
+	"account": {
+		"title"							: "Account",
+		"menu"							: "Account",
+
+		"plan": {
+			"header"				    : "%s Plan",
+			"subheader"			    	: "ends on %s",
+			"upgrade_plan"				: "Upgrade Plan",
+			"renew_plan"				: "Renew/Change Plan"
+		},
+
+		"settings": {
+			"header"					: "Settings",
+			"subheader"					: "Basic profile settings of your account.",
+
+			"email"						: "Email",
+			"name"						: "Name",
+			"timezone"					: "Timezone",
+			"timezone_help"				: "Your preferred way of displaying dates."
+		},
+
+		"billing": {
+			"header"					: "Billing details",
+			"subheader"					: "These billing details are used when generating invoices after a successful payment.",
+
+			"subscription_id_active"	: "You have an active subscription, you can't change the billing details until the subscription expires or is cancelled.",
+
+			"type"						: "Type",
+			"type_personal"				: "Personal",
+			"type_business"				: "Business",
+			"name"						: "Name",
+			"address"					: "Address",
+			"city"						: "City",
+			"county"					: "County",
+			"country"					: "Country",
+			"zip"						: "ZIP",
+			"phone"						: "Phone",
+			"tax_id"					: "Tax ID"
+		},
+
+		"change_password": {
+			"header"					: "Change Password",
+			"subheader"					: "If you do not want to change your password, do not fill any of those fields below.",
+
+			"current_password"			: "Current Password",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"twofa": {
+			"header"					: "Two-factor authentication",
+			"subheader"					: "Use a mobile authentication app to get a verification code to enter every time you log in.",
+
+			"is_enabled"				: "Enable Two-factor authentication",
+			"qr"						: "1. Scan QR Code",
+			"qr_help"					: "Open the authentication app (ex: Authy, Google Authenticator) on your mobile device and scan the following QR Code with your camera.",
+
+			"secret"					: "Can't scan the QR Code?",
+			"secret_help"				: "Try inserting the following secret code into your app if you can't scan the QR Code.",
+
+			"verify"					: "2. Enter freshly generated token",
+			"verify_help"				: "To confirm that you setup your code properly, please enter the 6-digit token from your mobile app."
+		},
+
+		"info_message": {
+			"user_pending_email"		: "An email confirmation was sent to the new email address. Make sure to check and confirm it via email."
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match!",
+			"twofa_check"				: "The token that you entered is not valid, please try again to setup the Two-factor authentication system."
+		},
+
+		"success_message": {
+			"account_updated"			: "Your account was updated!",
+            "subscription_canceled"     : "Your recurring subscription was canceled!"
+		}
+	},
+
+	"account_delete": {
+		"title"							: "Delete account",
+		"menu"							: "Delete account",
+		"header"						: "Delete account",
+		"subheader"						: "By deleting the account, all of your stored data will be deleted. This action is irreversible once done.",
+		"current_password"				: "Current Password",
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!"
+		}
+	},
+
+	"domains": {
+		"breadcrumb"					: "Custom domains",
+		"title"							: "Custom domains",
+		"menu"							: "Custom domains",
+		"header"						: "Custom domains",
+		"subheader"						: "Here you can add your own custom domain to use with your status pages.",
+		"create"						: "Connect custom domain",
+
+		"table": {
+			"host"						: "Domain",
+			"datetime"					: "Date",
+			"is_enabled"				: "Status",
+			"is_enabled_pending"		: "Pending activation",
+			"is_enabled_active"			: "Active"
+		},
+
+		"input": {
+			"help"						: "Make sure that your domain or subdomain has an A record pointing to %s or CNAME record pointing to %s.",
+			"host"						: "Domain or subdomain",
+			"host_placeholder"			: "domain.com",
+			"custom_index_url"			: "Custom index URL",
+			"custom_index_url_help"		: "Redirect to a specific url when visitors land on the index of the domain, in case you don't want to use the custom domain for a single status page.",
+			"custom_index_url_placeholder": "https://domain.com/",
+			"custom_not_found_url"				: "Custom 404 not found URL",
+			"custom_not_found_url_help"			: "Redirect to a specific url when visitors land on a not found page of the domain.",
+			"custom_not_found_url_placeholder"	: "https://domain.com/404-page"
+		},
+
+		"error_message": {
+			"domains_limit"				: "Your current plan does not allow you to connect another custom domain."
+		},
+
+		"no_data"						: "There are no custom domains added",
+		"no_data_help"					: "Start by linking your first custom domain."
+	},
+
+	"domain_create": {
+		"breadcrumb"					: "Connect custom domain",
+		"title"							: "Connect custom domain",
+		"menu"							: "Connect custom domain",
+		"header"						: "Connect custom domain",
+		"success_message"				: "Your custom domain has been submitted for approval and processing!"
+	},
+
+	"domain_update": {
+		"breadcrumb"					: "Update custom domain",
+		"title"							: "Update custom domain",
+		"menu"							: "Update custom domain",
+		"header"						: "Update custom domain",
+		"success_message"				: "Your custom domain update has been submitted for approval and processing!"
+	},
+
+	"domain_delete_modal": {
+		"header"						: "Delete domain",
+		"subheader"						: "By deleting the domain, all the data associated with the domain will be lost, including all the status pages associated with it. This action cannot be undone.",
+
+		"success_message"				: "Domain deletion was performed successfully!"
+	},
+
+	"projects": {
+		"title"							: "Projects",
+		"menu"							: "Projects",
+		"breadcrumb"					: "Projects",
+		"header"						: "Projects",
+		"subheader"						: "The easiest way to categorize your monitors, heartbeats and status pages.",
+		"create"						: "Create project",
+
+		"project_id"					: "Project",
+		"project_id_help"				: "A project will help you categorize your monitors, heartbeats and status pages",
+		"project_id_null"				: "None",
+
+		"table": {
+			"name"						: "Name",
+			"color"						: "Color",
+			"monitors"					: "View monitors",
+			"heartbeats"				: "View heartbeats",
+			"status_pages"				: "View status pages",
+			"datetime"					: "Created on"
+		},
+
+		"input": {
+			"name"						: "Name",
+			"color"						: "Color",
+			"color_help"				: "The color is used to help differentiate projects."
+		},
+
+		"error_message": {
+			"projects_limit"			: "Your current plan does not allow you to create another project."
+		},
+
+		"no_data"						: "There are no projects for now",
+		"no_data_help"					: "Start by creating your first project."
+	},
+
+	"project_create": {
+		"breadcrumb"					: "Create a new project",
+		"title"							: "Create a new project",
+		"header"						: "Create a new project",
+		"success_message"				: "Your custom project has been submitted for approval and processing!"
+	},
+
+	"project_update": {
+		"breadcrumb"					: "Update project",
+		"title"							: "Update project",
+		"header"						: "Update project",
+		"success_message"				: "Your custom project update has been submitted for approval and processing!"
+	},
+
+	"project_delete_modal": {
+		"header"						: "Delete project",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Project deletion was performed successfully!"
+	},
+
+	"account_plan": {
+		"title"							: "Account Plan",
+		"menu"							: "Plan",
+		"header"						: "Account Plan",
+
+		"plan":{
+			"renews"					: "Plan will renew on %s",
+			"expires"					: "Plan ends on %s"
+		},
+
+		"cancel": {
+			"header"					: "Cancel Subscription",
+			"subheader"					: "By cancelling your subscription no further payments will be made. You will still have access to your features that you paid for until the expiration date.",
+			"cancel"					: "Cancel Subscription",
+			"confirm_message"			: "Are you sure you want to cancel the next billing of your subscription?"
+		},
+
+		"code": {
+			"header"					: "Redeem",
+			"subheader"					: "Redeeming a code will cancel your current plan and automatically switch you to the new plan associated with the code.",
+
+			"input"						: "Redemption code",
+			"submit"					: "Activate"
+		},
+
+		"success_message": {
+			"code_redeemed"				: "Code has been successfully redeemed!",
+			"code"						: "Redeemable code is available: %s for %s days."
+		},
+
+		"error_message": {
+			"code_invalid"				: "This redeemable code is invalid..",
+			"code_used"					: "You have already used this redeemable code.."
+		}
+	},
+
+	"account_payments": {
+		"title"							: "Account Payments",
+		"menu"							: "Payments",
+		"header"						: "Account Payments",
+		"subheader"						: "All the payments made on your account.",
+
+		"payments": {
+			"customer"					: "Customer",
+			"type"						: "Type",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"total_amount"				: "Total Amount",
+			"plan_id"					: "Plan",
+			"invoice"					: "Invoice",
+			"status_pending"			: "Pending approval",
+			"status_approved"			: "Approved",
+
+			"no_data"					: "No payments for now.."
+		},
+
+		"filters": {
+			"processor"						: "Processor",
+			"processor_paypal"				: "PayPal",
+			"processor_stripe"				: "Stripe",
+			"processor_offline_payment"		: "Offline payment",
+
+			"type"							: "Type",
+			"type_one_time"					: "One time",
+			"type_recurring"				: "Recurring",
+
+			"frequency"						: "Frequency",
+			"frequency_monthly"				: "Monthly",
+			"frequency_annual"				: "Annual",
+			"frequency_lifetime"			: "Lifetime",
+
+			"order_by_total_amount"			: "Total amount"
+		}
+	},
+
+	"account_logs": {
+		"title"							: "Account logs",
+		"menu"							: "Logs",
+		"header"						: "Account logs",
+		"subheader"						: "A list of your most important recorded activity.",
+
+		"logs": {
+			"type"						: "Type",
+			"ip"						: "IP",
+			"date"						: "Date",
+
+			"no_data"					: "Your account has no recorded logs..",
+			"no_data_help"				: "Here you will be able to find important log entries regarding your account."
+		}
+	},
+
+	"account_api": {
+		"title"							: "Account API",
+		"menu"							: "API",
+		"header"						: "API",
+		"subheader"						: "Your API key. If needed, you can get a new one by hitting the button below. Looking for the %sAPI Documentation?%s",
+		"api_key"						: "API Key",
+		"button"						: "Regenerate API Key",
+		"success_message"				: "Your API key was regenerated successfully!"
+	},
+
+	"referrals": {
+		"title"							: "Referrals",
+		"menu"							: "Referrals",
+
+		"invite": {
+			"header"					: "Invite people",
+			"subheader_once"			: "Invite people to %s with the following link and get %s from their first payment to the platform.",
+			"subheader_forever"			: "Invite people to %s with the following link and get %s from all their payments to the platform.",
+			"referral_key"				: "Referral link",
+			"button"					: "Copy referral link"
+		},
+
+		"statistics": {
+			"header"					: "Statistics",
+			"referrals"					: "Referrals",
+			"referrals_help"			: "People who have signed up using your referral link.",
+			"converted_referrals"			: "Paying referrals",
+			"converted_referrals_help"		: "People who have signed up & paid for a plan at least once.",
+			"pending_affiliate_commissions" : "Pending commissions",
+			"pending_affiliate_commissions_help" : "All payments are held for 30 days for proper confirmation before they are approved.",
+			"approved_affiliate_commissions": "Approved commissions",
+			"approved_affiliate_commissions_help": "All payments that have been approved, which are ready to be withdrawn."
+		},
+
+		"withdraw": {
+			"header"					: "Withdraw",
+			"subheader"					: "Once you reach at least %s, you can create a withdrawal request.",
+			"amount"					: "Amount",
+			"is_paid"					: "Is paid",
+			"is_paid_paid"				: "Paid!",
+			"is_paid_pending"			: "Pending",
+			"success_message"			: "Your withdrawal request has been sent for approval and processing!"
+		}
+	},
+
+	"invoice": {
+		"print"							: "Print",
+		"invoice"						: "INVOICE",
+		"invoice_nr"					: "Invoice Nr",
+		"invoice_date"					: "Date",
+
+		"vendor"						: "Vendor",
+		"customer"						: "Customer",
+
+		"name"							: "Name",
+		"address"						: "Address",
+		"city"							: "City",
+		"county"						: "County",
+		"zip"							: "ZIP",
+		"country"						: "Country",
+		"email"							: "Email",
+		"phone"							: "Phone",
+		"tax_id"						: "Tax ID",
+
+		"table": {
+			"item"						: "Item",
+			"amount"					: "Amount",
+
+			"plan"						: "%s Plan",
+			"frequency"					: "%s access.",
+			"frequency_monthly"			: "30 days",
+			"frequency_annual"			: "1 year",
+			"frequency_lifetime"		: "Lifetime",
+
+			"code"						: "Discount",
+			"code_help"					: "Code used: %s",
+
+			"total"						: "Total",
+			"paid_via"					: "Paid via %s"
+		}
+	},
+
+	"login": {
+		"menu"							: "Sign in",
+		"title"							: "Sign in",
+		"header"						: "Sign in",
+
+		"form": {
+			"email" 					: "Email Address",
+			"password"					: "Password",
+			"twofa_token"				: "Two-factor token",
+			"remember_me"				: "Remember me",
+			"login"						: "Login"
+		},
+
+		"display": {
+			"register"					: "Don't have an account? %s",
+			"register_help"				: "Register",
+
+			"lost_password"				: "Lost Password",
+			"resend_activation"			: "Resend Activation",
+			"facebook"					: "%s Facebook Login"
+		},
+
+		"info_message": {
+			"twofa_token"				: "Use your authenticator app to get the token for the Two-factor authentication.",
+			"logged_in"					: "Welcome back, %s! You've successfully logged in."
+		},
+
+		"error_message": {
+			"twofa_token"				: "Your two-factor authentication token is invalid!",
+			"wrong_login_credentials"	: "Your login combination is invalid!",
+			"user_not_active"			: "Your account is not confirmed or banned!",
+			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process."
+		}
+	},
+
+	"lost_password": {
+		"title"							: "Lost password",
+		"header"						: "Lost password",
+		"subheader"						: "We will send you an email with a magic recovery link to reset your password.",
+		"return"						: "Return to Login",
+		"email"		 					: "Email",
+		"submit"						: "Send me a recovery link",
+		"success_message"				: "We sent an email to you if there is an account registered with it!"
+	},
+
+	"reset_password": {
+		"title"							: "Set a new password",
+		"header"						: "Set a new password",
+		"subheader"						: "For better security, make sure your new password is strong.",
+		"return"						: "Return to Login",
+		"new_password"					: "New password",
+		"repeat_password"				: "Repeat your new password",
+		"error_message": {
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match!"
+		},
+		"submit"						: "Set password",
+		"success_message"				: "Your new password was set!"
+	},
+
+	"resend_activation": {
+		"title"							: "Resend activation",
+		"header"						: "Resend activation email",
+		"subheader"						: "Mails can get lost, but we can send you another activation email for your account.",
+		"return"						: "Return to Login",
+		"email" 						: "Email",
+		"submit"						: "Send me the activation email",
+		"success_message"				: "We sent an email to you if there is an account registered with it!"
+	},
+
+	"activate_user": {
+		"user_activation"				: "Your account has been confirmed and is now active!",
+		"user_pending_email"			: "Your new email address has been confirmed!"
+	},
+
+	"register": {
+		"title"							: "Sign up",
+		"menu"							: "Sign up",
+		"header"						: "Sign up",
+
+		"form": {
+			"name"						: "Name",
+			"email"						: "Email",
+			"password"					: "Password",
+			"repeat_password"			: "Repeat Password",
+			"accept"					: "I confirm that I have read and understood the %s and %s of the site.",
+			"register"					: "Register"
+		},
+
+		"display": {
+			"login"						: "Already have an account? %s",
+			"login_help"				: "Sign in"
+		},
+
+		"error_message": {
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"email_exists"				: "This email address is already in use!",
+			"invalid_email"				: "This email address is invalid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!"
+		},
+
+		"success_message": {
+			"registration"				: "Check your email for the activation link of your account!",
+			"login"						: "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+
+	"dashboard": {
+		"breadcrumb"					: "Dashboard",
+		"title"							: "Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+
+		"view_all"						: "View all",
+
+		"monitors": {
+			"header"					: "Latest monitors"
+		},
+
+		"heartbeats": {
+			"header"					: "Latest heartbeats"
+		},
+
+		"status_pages": {
+			"header"					: "Latest status pages"
+		}
+	},
+
+	"monitors": {
+		"breadcrumb"					: "Monitors",
+		"title"							: "Monitors",
+		"menu"							: "Monitors",
+		"header"						: "Monitors",
+		"subheader"						: "A monitor is a process of constantly checking a server or website.",
+		"create"						: "Create monitor",
+
+		"filters": {
+			"type"						: "Monitor type",
+			"type_website"				: "Website",
+			"type_ping"					: "Ping",
+			"type_port"					: "Port",
+			"search_by_name"			: "Name",
+			"search_by_target"			: "Website URL/Host",
+			"order_by_name"				: "Name",
+			"order_by_last_check_datetime": "Last checked datetime",
+			"order_by_uptime"			: "Uptime",
+			"order_by_average_response_time": "Response time"
+		},
+
+		"no_data"						: "There are no created monitors",
+		"no_data_help"					: "Start by configuring your first monitor."
+	},
+
+	"monitor": {
+		"breadcrumb"					: "Monitor",
+		"title"							: "%s monitor",
+		"menu"							: "Monitor",
+		"header"						: "%s monitor",
+
+		"uptime"						: "Uptime",
+		"downtime"						: "Downtime",
+		"average_response_time"			: "Avg. response time",
+		"total_incidents"				: "Incidents",
+
+		"downtime_tooltip"				: "%s downtime",
+		"last_check_datetime"			: "Last checked",
+		"currently_up_for"				: "Currently up for",
+		"currently_down_for"			: "Currently down for",
+		"check_interval_seconds_tooltip": "Checked every %s seconds",
+		"last_not_ok_datetime_tooltip"	: "Last incident on %s",
+		"last_ok_datetime_tooltip"		: "Last up on %s",
+		"total_checks_tooltip"			: "Based on %s total checks",
+		"total_ok_checks_tooltip"		: "Based on %s ok checks",
+
+		"is_enabled_paused"				: "Monitor is paused!",
+		"is_ok"							: "Monitor is up!",
+		"is_not_ok"						: "Monitor is down!",
+
+		"response_time_label"			: "Response time",
+		"is_ok_label"					: "Monitor is online",
+
+		"checks": {
+			"header"					: "Monitor checks",
+			"last_checks"				: "Last monitor checks",
+			"view_all"					: "View all",
+			"status"					: "Status",
+			"response_time"				: "Response time",
+			"response_status_code"		: "Response status code",
+			"datetime"					: "Date",
+			"no_data"					: "There are no logged checks in this time period.",
+
+			"error": {
+				"response_header"		: "Response headers do not match the expected ones.",
+				"response_status_code"	: "Response status code does not match the expected one.",
+				"response_body"			: "Response body does not match the expected one."
+			}
+		},
+
+		"ping_servers_checks": {
+			"header"					: "Ping locations",
+			"lowest_response_time"		: "Lowest resp. time",
+			"average_response_time"		: "Avg. resp. time",
+			"highest_response_time"		: "Highest resp. time",
+			"ping_server"				: "Location",
+			"total_ok_checks"			: "%s ok checks",
+			"no_data"					: "There are no logged checks in this time period.",
+			"self_location"				: "Your server's location"
+		},
+
+		"incidents": {
+			"header"					: "Incidents",
+			"start_datetime"			: "Started",
+			"end_datetime"				: "Ended",
+			"end_datetime_null"			: "Ongoing incident!",
+			"length"					: "Length",
+			"no_data"					: "Congrats! There are no incidents in this time period."
+		},
+
+		"ssl": {
+			"header"					: "SSL Certificate",
+			"subheader"					: "%s it expires."
+		},
+
+		"input": {
+			"name"						: "Name",
+			"name_help"					: "Easy to remember and recognize name for the monitor.",
+			"type"						: "Ping Protocol",
+			"type_website"				: "HTTP(s)",
+			"type_website_help"			: "Ideal for monitoring websites, APIs and web services.",
+			"type_ping"					: "Ping (ICMP)",
+			"type_ping_help"			: "Ideal for monitoring a server",
+			"type_port"					: "Host / Port",
+			"type_port_help"			: "Ideal for monitoring databases, POP or SMTP servers.",
+			"target_url"				: "URL",
+			"target_host"				: "Host",
+			"target_port"				: "Port",
+			"is_enabled"				: "Monitoring is active",
+			"is_enabled_help"			: "Easily activate or pause monitoring.",
+
+			"advanced"								: "Advanced settings",
+			"ping_servers_ids"						: "Ping locations",
+			"ping_servers_ids_help"					: "Select the servers that you want to be used to ping your target.",
+			"ssl_is_enabled"						: "Enable SSL Certificate checks",
+			"ssl_email_notifications_is_enabled"	: "Get notified via email before expiration",
+			"ssl_email_notifications_is_enabled_input": "%s before",
+			"email_notifications_is_enabled" 		: "Email notifications",
+			"email_notifications_is_enabled_help" 	: "Receive email notifications when your monitor goes down / back up.",
+			"email_reports_is_enabled" 				: "Email reports",
+			"email_reports_is_enabled_help" 		: "Receive frequent email reports about your monitor's uptime.",
+			"webhook_notifications" 				: "Webhook URL",
+			"webhook_notifications_help" 			: "Receive webhook notifications when your monitor goes down / back up to your specified webhook URL.",
+			"slack_notifications" 					: "Slack Webhook URL",
+			"slack_notifications_help" 				: "Receive Slack notifications when your monitor goes down / back up to your specified Slack channel via webhooks. <a href=\"https://slack.com/apps/A0F7XDUAZ-incoming-webhooks\" target=\"_blank\">Get Slack webhook URL</a>.",
+			"twilio_notifications" 					: "Phone number for SMS notifications",
+			"twilio_notifications_help" 			: "Example of valid phone number: +15558675310.",
+			"timeout_seconds"						: "Request timeout",
+			"check_interval_seconds"				: "Check interval",
+			"check_interval_seconds_help"			: "How often we will check your monitor.",
+
+			"custom_request"			: "Custom request",
+			"request_method"			: "Request method",
+			"request_body"				: "Request body (POST, PUT, or PATCH requests only)",
+			"request_body_help"			: "You can send your own custom body, form data format or JSON.",
+			"request_basic_auth_username": "Basic auth username",
+			"request_basic_auth_password": "Basic auth password",
+			"request_headers"			: "Custom request headers",
+			"request_header_name"		: "Header name",
+			"request_header_value"		: "Header value",
+			"request_header_add"		: "Add request header",
+			"request_header_remove"		: "Remove request header",
+
+			"custom_response"			: "Custom response",
+			"response_status_code"		: "Response status code",
+			"response_status_code_help"	: "The required status code that the response of the request needs to answer with.",
+			"response_body"				: "Response body",
+			"response_body_help"		: "The required text that needs to be included within the response body.",
+			"response_headers"			: "Custom response headers",
+			"response_header_name"		: "Header name",
+			"response_header_value"		: "Header value",
+			"response_header_add"		: "Add response header",
+			"response_header_remove"	: "Remove response header"
+		},
+
+		"error_message": {
+			"invalid_target_url"		: "Make sure to insert a valid URL, such as: https://domain.com/",
+			"monitors_limit"			: "Your current plan does not allow you to create another monitor."
+		},
+
+		"slack_notifications": {
+			"is_ok"						: "%s monitor is now UP!",
+			"is_not_ok"					: "%s monitor is now DOWN!"
+		},
+
+		"twilio_notifications": {
+			"is_ok"						: "%s monitor is now UP!",
+			"is_not_ok"					: "%s monitor is DOWN!"
+		},
+
+		"no_data"						: "We are processing your monitor..",
+		"no_data_help"					: "%s's first check is incoming!"
+	},
+
+	"monitor_logs": {
+		"breadcrumb"					: "Monitor checks",
+		"title"							: "%s monitor checks",
+		"menu"							: "Monitor checks",
+		"header"						: "%s monitor checks",
+
+		"filters": {
+			"ping_server_id"			: "Ping server",
+			"status"					: "Status",
+			"is_ok"						: "Up",
+			"is_not_ok"					: "Down",
+			"search_by_response_status_code": "Response status code",
+			"order_by_response_time"	: "Response time"
+		}
+	},
+
+	"monitor_create": {
+		"breadcrumb"					: "Create monitor",
+		"title"							: "Create monitor",
+		"header"						: "Create a new monitor",
+
+		"success_message"				: "Your new monitor has been created and is now pending its first check!"
+	},
+
+	"monitor_update": {
+		"breadcrumb"					: "Edit monitor",
+		"title"							: "Edit %s monitor",
+		"header"						: "Edit %s monitor",
+
+		"success_message"				: "Your monitor has been updated with the new settings!"
+	},
+
+	"monitor_delete_modal": {
+		"header"						: "Delete monitor",
+		"subheader"						: "By deleting the monitor, all the data associated with the monitor will be lost. This action cannot be undone.",
+
+		"success_message"				: "Monitor deletion was performed successfully!"
+	},
+
+	"status_pages": {
+		"breadcrumb"					: "Status pages",
+		"title"							: "Status pages",
+		"menu"							: "Status pages",
+		"header"						: "Status pages",
+		"subheader"						: "A status page is an easy to configure public page that can display data from multiple monitors.",
+		"create"						: "Create status page",
+		"external_url"					: "View status page",
+
+		"pageviews"						: "%s Pageviews",
+
+		"filters": {
+			"search_by_name"			: "Name",
+			"order_by_name"				: "Name"
+		},
+
+		"no_data"						: "There are no created status pages",
+		"no_data_help"					: "Start by creating your first status page."
+	},
+
+	"status_page": {
+		"breadcrumb"					: "Status page",
+
+		"input": {
+			"domain_id"					: "Domain",
+			"domain_id_help"			: "Select the domain that you'd like to use to create your status page with.",
+			"is_main_status_page"		: "Exclusive status page for this custom domain",
+			"is_main_status_page_help"	: "Make this status page to be accessible via the index of this custom domain. Other status pages won't be able to be associated with this domain after.",
+			"url"						: "URL Alias",
+			"url_placeholder"			: "my-status-page-url",
+			"url_help"					: "The main URL that your status page is going to be able accessed from.",
+			"name"						: "Name",
+			"description"				: "Description",
+			"description_help"			: "Short description of your status page.",
+			"monitors_ids"				: "Monitors",
+			"monitors_ids_help"			: "Select the monitors that you want to be shown in this status page.",
+
+			"advanced"					: "Advanced",
+			"password"					: "Password",
+			"password_help"				: "Require visitors to enter a password to see the content of the status page.",
+			"timezone"					: "Timezone",
+			"timezone_help"				: "Main timezone of the status page.",
+			"is_enabled"				: "Status page is enabled",
+			"is_enabled_help"			: "The main switch that makes the status page keep working.",
+			"is_se_visible"				: "Search Engine visibility",
+			"is_se_visible_help"		: "If disabled, the status page will not be indexed by search engines, such as Google or Bing.",
+			"is_removed_branding"		: "Remove branding",
+			"is_removed_branding_help"	: "If enabled, the status page won't show the branding of our website.",
+
+			"socials"					: "Socials",
+			"website"					: "Website",
+			"website_placeholder"		: "https://yourwebsite.com/",
+			"email"						: "Email",
+			"email_placeholder"			: "name@email.com",
+			"facebook"					: "Facebook",
+			"facebook_placeholder"		: "your-facebook-page-name",
+			"twitter"					: "Twitter",
+			"twitter_placeholder"		: "your-twitter-username",
+			"youtube"					: "YouTube",
+			"youtube_placeholder"		: "Channel ID",
+			"instagram"					: "Instagram",
+			"instagram_placeholder"		: "your-instagram-username",
+
+			"customizations"			: "Customizations",
+			"logo"						: "Logo",
+			"logo_help"					: "Your status page logo, recommended 1:1 ration for the logo (jpg, jpeg, png, gif or svg).",
+			"favicon"					: "Favicon",
+			"favicon_help"				: "Your status page favicon, recommended 1:1 ration for the favicon (jpg, jpeg, png, gif or ico).",
+			"custom_css"				: "Custom CSS",
+			"custom_css_help"			: "Custom CSS to overwrite the already existing status page style.",
+			"custom_js"					: "Custom JS",
+			"custom_js_help"			: "You could add your own tracking javascript code to the status page, for example."
+		},
+
+		"error_message": {
+			"status_pages_limit"		: "Your current plan does not allow you to create another status page.",
+			"url_exists"				: "This status page URL alias is already taken by someone else."
+		}
+	},
+
+	"status_page_create": {
+		"breadcrumb"					: "Create status page",
+		"title"							: "Create status page",
+		"header"						: "Create a new status page",
+		"info"							: "You can set up more details about the status page after the creation.",
+
+		"success_message"				: "Your new status page has been created and is now ready!"
+	},
+
+	"status_page_update": {
+		"breadcrumb"					: "Edit status page",
+		"title"							: "Edit %s status page",
+		"header"						: "Edit %s status page",
+
+		"success_message"				: "Your status page has been updated with the new settings!"
+	},
+
+	"status_page_statistics": {
+		"breadcrumb"					: "Statistics",
+		"title"							: "%s statistics",
+		"menu"							: "Statistics",
+		"header"						: "%s statistics",
+
+		"pageviews"						: "Pageviews",
+		"visitors"						: "Visitors",
+
+		"statistics": {
+			"overview"					: "Overview",
+			"overview_help"				: "",
+			"view_more"					: "View more",
+
+			"country"					: "Countries",
+			"country_help"				: "Discover the countries that your visitors are from.",
+			"country_unknown"			: "Unknown",
+
+			"city"						: "Cities of %s",
+			"city_help"					: "Discover the cities that your visitors are from.",
+			"city_unknown"				: "Unknown",
+
+			"os"						: "Operating Systems",
+			"os_help"					: "Discover the operating systems that your visitors are using.",
+			"os_unknown"				: "Unknown",
+
+			"browser"					: "Browsers",
+			"browser_help"				: "Discover the browsers that your visitors are using.",
+			"browser_unknown"			: "Unknown",
+
+			"language"					: "Languages",
+			"language_help"				: "Discover the browser languages that your visitors are having.",
+			"language_unknown"			: "Unknown",
+
+			"device"					: "Devices",
+			"device_help"				: "Discover the devices that your visitors are using.",
+			"device_unknown"			: "Unknown",
+			"device_desktop"			: "Desktop",
+			"device_tablet"				: "Tablet",
+			"device_mobile"				: "Mobile",
+
+			"referrer_host"				: "Referrers",
+			"referrer_path"				: "%s referrer paths",
+			"referrer_help"				: "Discover where your traffic is coming from.",
+			"referrer_direct"			: "Direct",
+			"referrer_qr"				: "QR Code",
+
+			"utms"						: "UTMs",
+			"utms_help"					: "Discover how your UTM marketing campaigns are performing.",
+			"utm_medium"				: "%s utm mediums",
+			"utm_campaign"				: "%s / %s utm sources"
+		},
+
+		"no_data"						: "There are no statistics available for this date range",
+		"no_data_help"					: "Wait until you get some traffic and come back."
+	},
+
+	"status_page_qr": {
+		"breadcrumb"					: "Status page QR",
+		"title"							: "%s status page QR code",
+		"menu"							: "QR Code",
+		"header"						: "%s status page QR code",
+		"subheader"						: "This QR code is meant to be downloaded, printed and placed onto where your status page customers can see and access it.",
+
+		"configurator": {
+			"foreground_color"			: "Foreground color",
+			"background_color"			: "Background color",
+			"corner_radius"				: "Corner radius",
+			"type"						: "QR Type",
+			"type_normal"				: "Normal",
+			"type_text"					: "Insert custom text",
+			"type_image"				: "Insert custom logo",
+
+			"text"						: "Custom text",
+			"text_color"				: "Text color",
+			"text_size"					: "Text size",
+
+			"image"						: "Image",
+			"image_size"				: "Image size"
+		},
+
+		"print"							: "Print",
+		"download"						: "Download"
+	},
+
+	"status_page_delete_modal": {
+		"header"						: "Delete status page",
+		"subheader"						: "This action cannot be undone.",
+
+		"success_message"				: "Status page deletion was performed successfully!"
+	},
+
+	"heartbeats": {
+		"breadcrumb"					: "Heartbeats",
+		"title"							: "Heartbeats",
+		"menu"							: "Heartbeats",
+		"header"						: "Heartbeats",
+		"subheader"						: "A heartbeat helps you track your CRON jobs to make sure they run when they are expected to.",
+		"create"						: "Create heartbeat",
+
+		"last_run_datetime"				: "Last run %s",
+
+		"filters": {
+			"search_by_name"			: "Name",
+			"order_by_name"				: "Name",
+			"order_by_last_run_datetime": "Last run datetime",
+			"order_by_uptime"			: "Uptime"
+		},
+
+		"error_message": {
+			"heartbeats_limit"			: "Your current plan does not allow you to create another heartbeat."
+		},
+
+		"no_data"						: "There are no created heartbeats",
+		"no_data_help"					: "Start by configuring your first heartbeat."
+	},
+
+	"heartbeat": {
+		"breadcrumb"					: "Heartbeat",
+		"title"							: "%s heartbeat",
+		"menu"							: "Heartbeat",
+		"header"						: "%s heartbeat",
+
+		"code"							: "Send a GET or POST request to this URL each time your cronjob runs.",
+		"uptime"						: "Uptime",
+		"downtime"						: "Downtime",
+		"average_response_time"			: "Avg. response time",
+		"total_incidents"				: "Incidents",
+
+		"downtime_tooltip"				: "%s downtime",
+		"last_run_datetime"				: "Last run",
+		"currently_up_for"				: "Currently up for",
+		"currently_down_for"			: "Currently down for",
+		"run_interval_seconds_tooltip"	: "Expected to run every %s %s",
+		"last_missed_datetime_tooltip"	: "Last incident on %s",
+		"last_run_datetime_tooltip"		: "Last up on %s",
+		"total_runs_tooltip"			: "Based on %s total runs",
+		"total_missed_runs_tooltip"		: "Based on %s missed runs",
+
+		"is_enabled_paused"				: "Heartbeat is paused!",
+		"is_ok"							: "Heartbeat is up!",
+		"is_not_ok"						: "Heartbeat is down!",
+
+		"is_ok_label"					: "Heartbeat is online",
+
+		"incidents": {
+			"header"					: "Incidents",
+			"start_datetime"			: "Started",
+			"end_datetime"				: "Ended",
+			"end_datetime_null"			: "Ongoing incident!",
+			"length"					: "Length",
+			"no_data"					: "Congrats! There are no incidents in this time period."
+		},
+
+		"input": {
+			"name"						: "Name",
+			"name_help"					: "Easy to remember and recognize name for the heartbeat.",
+			"run_interval"				: "Except a heartbeat every",
+			"run_interval_grace"		: "Grace period",
+			"run_interval_grace_help"	: "The time that your cronjob takes to execute, approximately.",
+			"is_enabled"				: "Heartbeat is active",
+			"is_enabled_help"			: "Easily activate or pause the heartbeat.",
+
+			"advanced"								: "Advanced settings",
+			"email_notifications_is_enabled" 		: "Email notifications",
+			"email_notifications_is_enabled_help" 	: "Receive email notifications when your monitor goes down / back up.",
+			"email_reports_is_enabled" 				: "Email reports",
+			"email_reports_is_enabled_help" 		: "Receive frequent email reports about your monitor's uptime.",
+			"webhook_notifications" 				: "Webhook URL",
+			"webhook_notifications_help" 			: "Receive webhook notifications when your heartbeat goes down / back up to your specified webhook URL.",
+			"slack_notifications" 					: "Slack Webhook URL",
+			"slack_notifications_help" 				: "Receive Slack notifications when your heartbeat goes down / back up to your specified Slack channel via webhooks. <a href=\"https://slack.com/apps/A0F7XDUAZ-incoming-webhooks\" target=\"_blank\">Get Slack webhook URL</a>.",
+			"twilio_notifications" 					: "Phone number for SMS notifications",
+			"twilio_notifications_help" 			: "Example of valid phone number: +15558675310.",
+			"timeout_seconds"						: "Request timeout",
+			"check_interval_seconds"				: "Check interval",
+			"check_interval_seconds_help"			: "How often we will check your monitor."
+		},
+
+		"slack_notifications": {
+			"is_ok"						: "%s heartbeat is now UP!",
+			"is_not_ok"					: "%s heartbeat is now DOWN!"
+		},
+
+		"twilio_notifications": {
+			"is_ok"						: "%s heartbeat is now UP!",
+			"is_not_ok"					: "%s heartbeat is DOWN!"
+		},
+
+		"no_data"						: "We are waiting for your first CRON run..",
+		"no_data_help"					: "%s's first run is expected!"
+	},
+
+	"heartbeat_create": {
+		"breadcrumb"					: "Create heartbeat",
+		"title"							: "Create heartbeat",
+		"header"						: "Create a new heartbeat",
+
+		"success_message"				: "Your new heartbeat has been created and is now waiting for the first run!"
+	},
+
+	"heartbeat_update": {
+		"breadcrumb"					: "Edit heartbeat",
+		"title"							: "Edit %s heartbeat",
+		"header"						: "Edit %s heartbeat",
+
+		"success_message"				: "Your heartbeat has been updated with the new settings!"
+	},
+
+	"heartbeat_delete_modal": {
+		"header"						: "Delete heartbeat",
+		"subheader"						: "By deleting the heartbeat, all the data associated with the heartbeat will be lost. This action cannot be undone.",
+
+		"success_message"				: "Heartbeat deletion was performed successfully!"
+	},
+
+	"index": {
+		"breadcrumb"					: "Home",
+		"menu"							: "Home",
+		"title"							: "Uptime Monitoring & Status Pages",
+		"meta_description"				: "",
+		"meta_keywords"					: "",
+
+		"header"						: "Uptime Monitoring <br />& Status Pages",
+		"subheader"						: "Easy & reliable uptime and performance monitoring solution, with highly customizable and fast status pages.",
+		"get_started"					: "Get started",
+		"example"						: "Status page demo",
+
+		"feature":{
+			"one"						: "Custom domains",
+			"two"						: "Downtime alerts",
+			"three"						: "Analytics included"
+		},
+
+		"monitors": {
+			"header"					: "Monitors",
+			"subheader"					: "Uptime track your websites, servers and ports availability with ease."
+		},
+
+		"heartbeats": {
+			"header"					: "Heartbeats",
+			"subheader"					: "Keep track of your Cron jobs and make sure they are actually running."
+		},
+
+		"status_pages": {
+			"header"					: "Status pages",
+			"subheader"					: "Be transparent with your visitors and show display your monitors stats beautifully."
+		},
+
+		"incidents": {
+			"header"					: "Incidents",
+			"subheader"					: "Get to know when & for how long your monitors became unavailable & get instant email notifications."
+		},
+
+		"ping_servers": {
+			"header"					: "Multiple locations",
+			"subheader"					: "We check your monitors from multiple locations around the world."
+		},
+
+		"custom_request": {
+			"header"					: "Custom HTTP requests",
+			"subheader"					: "Request method, request body, basic auth & custom request headers."
+		},
+
+		"custom_response": {
+			"header"					: "Custom HTTP responses",
+			"subheader"					: "Set & expect a certain response from your monitors."
+		},
+
+		"notifications": {
+			"header"					: "Email notifications",
+			"subheader"					: "Get instant notifications when your tracked services go up or down."
+		},
+
+		"custom_domains": {
+			"header"					: "Custom domains",
+			"subheader"					: "Connect your own domain or use our predefined ones."
+		},
+
+		"projects": {
+			"header"					: "Projects",
+			"subheader"					: "Easiest way to categorize your managed resources."
+		},
+
+		"stats"							: "We made <span class='text-primary-400'>%s checks</span> for a total of <span class='text-primary-400'>%s monitors</span>. We also host <span class='text-blue-200'>%s status pages</span>.",
+
+		"pricing": {
+			"header"					: "Choose your plan",
+			"header_help"				: "Ready to start?"
+		},
+
+		"cta": {
+			"header"					: "Get started",
+			"subheader"					: "Track the uptime of your servers & display their stats on a status page.",
+			"pricing"					: "Pricing",
+			"register"					: "Sign up"
+		}
+	},
+
+	"api": {
+		"error_message": {
+			"no_bearer"					: "The request is missing the Bearer Authentication header.",
+			"no_access"					: "You do not have access to the API.",
+			"rate_limit"				: "You reached the limit of requests in one minute, please wait.",
+			"not_found"					: "The resource you are looking for does not exist."
+		}
+	},
+
+	"api_documentation": {
+		"breadcrumb"					: "API Documentation",
+		"title"							: "API Documentation",
+		"header"						: "API Documentation",
+		"subheader"						: "This is the documentation for the available API endpoints, which are built around the <strong>REST architecture</strong>. All the API endpoints will return a <strong>JSON response</strong> with the standard <strong>HTTP response codes</strong> and need a <strong>Bearer Authentication via an API Key</strong>.",
+
+		"endpoint"						: "Endpoint",
+		"example"						: "Example",
+		"response"						: "Response example",
+		"api_key"						: "Get API Key",
+		"base_url"						: "Base URL",
+		"parameters"					: "Parameters",
+		"required"						: "Required",
+		"optional"						: "Optional",
+		"details"						: "Details",
+		"description"					: "Description",
+
+		"authentication": {
+			"header"					: "Authentication",
+			"subheader"					: "All the API endpoints require an API key sent by the <strong>Bearer Authentication method.</strong>"
+		},
+
+		"filters": {
+			"page"                      : "The page number that you want results from. Defaults to <code>1</code>.",
+			"results_per_page"          : "How many results you want per page. Allowed values are: %s. Defaults to <code>%s</code>.",
+			"search"                    : "The search string.",
+			"search_by"                 : "What field are you searching by. Allowed values are: %s.",
+			"order_by"                  : "What field to order the results by. Allowed values are: %s.",
+			"order_by_type"             : "The ordering of the results. Allowed values are: <code>ASC</code> for ascending ordering, and <code>DESC</code> for descending ordering."
+		},
+
+		"user": {
+			"header"					: "User",
+			"read_header"				: "Retrieve user"
+		},
+
+		"monitors": {
+			"header"					: "Monitors",
+			"read_all_header"			: "Retrieve monitors",
+			"read_header"				: "Retrieve a monitor"
+		},
+
+		"heartbeats": {
+			"header"					: "Heartbeats",
+			"read_all_header"			: "Retrieve heartbeats",
+			"read_header"				: "Retrieve a heartbeat"
+		},
+
+		"status_pages": {
+			"header"					: "Status pages",
+			"read_all_header"			: "Retrieve status pages",
+			"read_header"				: "Retrieve a status page"
+		},
+
+		"statistics": {
+			"header"					: "Status page statistics",
+			"read_header"				: "Retrieve status page statistics",
+			"start_date"				: "Start date in <code>Y-m-d</code> format.",
+			"end_date"					: "End date in <code>Y-m-d</code> format.",
+			"type"						: "Type of data to be returned. Allowed values are: <code>overview</code>, <code>referrer_host</code>, <code>referrer_path</code>, <code>country_code</code>, <code>city_name</code>, <code>os_name</code>, <code>browser_name</code>, <code>device_type</code>, <code>browser_language</code>, <code>utm_source</code>, <code>utm_medium</code>, <code>utm_campaign</code>. Defaults to <code>overview</code>.",
+			"country_code"				: "Parameter only available for the <code>city_name</code> type.",
+			"utm_source"				: "Parameter only available for the <code>utm_medium</code> and <code>utm_campaign</code> type.",
+			"utm_medium"				: "Parameter only available for the <code>utm_campaign</code> type."
+		},
+
+		"projects": {
+			"header"					: "Projects",
+			"read_all_header"			: "Retrieve projects",
+			"read_header"				: "Retrieve a project",
+			"create_header"				: "Add a new project",
+			"update_header"				: "Update a project",
+			"delete_header"				: "Delete a project"
+		},
+
+		"domains": {
+			"header"					: "Custom domains",
+			"read_all_header"			: "Retrieve custom domains",
+			"read_header"				: "Retrieve a custom domain",
+			"create_header"				: "Add a new custom domain",
+			"update_header"				: "Update a custom domain",
+			"delete_header"				: "Delete a custom domain"
+		},
+
+		"payments": {
+			"header"					: "Payments",
+			"read_all_header"			: "Retrieve payments",
+			"read_header"				: "Retrieve a payment"
+		},
+
+		"users_logs": {
+			"header"					: "Logs",
+			"read_all_header"			: "Retrieve logs"
+		}
+	},
+
+	"affiliate": {
+		"breadcrumb"					: "Affiliate",
+		"title"							: "Affiliate",
+		"menu"							: "Affiliate",
+		"header"						: "The affiliates program",
+		"subheader"						: "Easiest way to earn commission from people that you bring to the platform.",
+
+		"commission_percentage": {
+			"header"					: "%s commission",
+			"subheader_once"			: "Earn commission from the first payment of any user that you bring to the platform.",
+			"subheader_forever"			: "Earn commission from all of the payments of any user that you bring to the platform."
+		},
+
+		"minimum_withdrawal_amount": {
+			"header"					: "%s minimum withdrawal",
+			"subheader"					: "Once your approved balance reaches the minimum withdrawal amount, you can request a withdrawal."
+		},
+
+		"how": {
+			"header"					: "How does it work?",
+			"one"						: "Sign up",
+			"one_help"					: "Simply register for an account on our platform.",
+			"two"						: "Share your link",
+			"two_help"					: "Start promoting your referral link and bring new users.",
+			"three"						: "Start earning",
+			"three_help"				: "Once your referred users start paying, you'll get paid as well.",
+			"four"						: "Withdraw your money",
+			"four_help"					: "Request a withdrawal and you'll get paid."
+		},
+
+		"cta": {
+			"header"					: "Start earning money 💰",
+			"subheader"					: "Create an account and start in just a few minutes.",
+			"register"					: "Sign up"
+		}
+	},
+
+	"notfound": {
+		"title"							: "Not found",
+		"header"						: "404 Not Found",
+		"subheader"						: "The page you’re looking for was not found."
+	},
+
+	"cron": {
+		"monitor_ssl_expiration_notice": {
+			"title"						: "Your %s SSL Certificate is expiring in %s days",
+			"p1"						: "This is a quick email to let you know that your %s monitor triggered an alert regarding your SSL Certificate. The SSL Certificate for %s is expiring in %s days.",
+			"notice"					: "You are getting these emails because you have enabled email notifications in your %ssettings%s page."
+		},
+
+		"is_ok": {
+			"title"						: "Good: %s is back UP!",
+			"p1"						: "Great news, we've detected your %s instance as back up.",
+			"button"					: "View details",
+			"notice"					: "You are getting these emails because you have enabled email notifications in your %ssettings%s page.",
+			"start_datetime"			: "Started",
+			"end_datetime"				: "Ended",
+			"length"					: "Length"
+		},
+
+		"is_not_ok": {
+			"title"						: "Alert: %s is DOWN!",
+			"p1"						: "Bad news, we've detected your %s instance as down right now.",
+			"button"					: "View details",
+			"notice"					: "You are getting these emails because you have enabled email notifications in your %ssettings%s page.",
+			"start_datetime"			: "Started"
+		},
+
+		"monitor_email_report": {
+			"title"						: "%s monitor stats between %s and %s",
+			"p1"						: "Here is a short stats overview of what happened on the %s monitor.",
+			"datetime_range"			: "Stats from",
+			"uptime"					: "Uptime",
+			"average_response_time"		: "Avg. response time",
+			"total_monitor_logs"		: "Total checks",
+			"button"					: "View %s monitor",
+			"notice"					: "You are getting these emails because you have enabled email reports in your %ssettings%s page."
+		},
+
+		"heartbeat_email_report": {
+			"title"						: "%s heartbeat stats between %s and %s",
+			"p1"						: "Here is a short stats overview of what happened on the %s monitor.",
+			"datetime_range"			: "Stats from",
+			"uptime"					: "Uptime",
+			"total_runs"				: "Total runs",
+			"total_missed_runs"			: "Total missed runs",
+			"button"					: "View %s heartbeat",
+			"notice"					: "You are getting these emails because you have enabled email reports in your %ssettings%s page."
+		}
+	}
+}

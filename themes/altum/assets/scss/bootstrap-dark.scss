@@ -1,0 +1,177 @@
+/* Overriding bootstrap defaults */
+$primary-900: hsl(149, 80%, 90%);
+$primary-800: hsl(152, 76%, 80%);
+$primary-700: hsl(156, 72%, 67%);
+$primary-600: hsl(158, 64%, 52%);
+$primary: hsl(160, 84%, 39%);
+$primary-400: hsl(161, 94%, 30%);
+$primary-300: hsl(163, 94%, 24%);
+$primary-200: hsl(163, 88%, 20%);
+$primary-100: hsl(164, 86%, 16%);
+$primary-50: hsl(152, 81%, 4%);
+
+$blue-900: hsla(219, 80%, 80%, 1);
+$blue-800: hsla(219, 80%, 65%, 1);
+$blue-700: hsla(219, 80%, 59%, 1);
+$blue-600: hsla(219, 80%, 50%, 1);
+$blue-500: hsla(219, 75%, 41%, 1);
+$blue-400: hsla(219, 70%, 32%, 1);
+$blue-300: hsl(219, 70%, 25%);
+$blue-200: hsl(219, 71%, 15%);
+$blue-100: hsla(219, 70%, 10%, 1);
+$blue-50: hsl(214, 65%, 5%);
+
+$gray-900: hsl(204, 45%, 90%) !default;
+$gray-800: hsl(210, 38%, 85%) !default;
+$gray-700: hsl(214, 32%, 79%) !default;
+$gray-600: hsl(211, 25%, 71%) !default;
+$gray-500: hsl(214, 20%, 61%) !default;
+$gray-400: hsl(216, 15%, 34%) !default;
+$gray-300: hsl(218, 17%, 24%) !default;
+$gray-200: hsl(218, 23%, 19%) !default;
+$gray-100: hsl(220, 26%, 14%) !default;
+$gray-50: hsl(220, 22%, 8%) !default;
+
+$theme-colors: (
+    "gray-50": $gray-50,
+    "gray-100": $gray-100,
+    "gray-200": $gray-200,
+    "gray-300": $gray-300,
+    "gray-400": $gray-400,
+    "gray-500": $gray-500,
+    "gray-600": $gray-600,
+    "gray-700": $gray-700,
+    "gray-800": $gray-800,
+    "gray-900": $gray-900,
+
+    "blue-50": $blue-50,
+    "blue-100": $blue-100,
+    "blue-200": $blue-200,
+    "blue-300": $blue-300,
+    "blue-400": $blue-400,
+    "blue-500": $blue-500,
+    "blue-600": $blue-600,
+    "blue-700": $blue-700,
+    "blue-800": $blue-800,
+    "blue-900": $blue-900,
+
+    "primary-100": $primary-100,
+    "primary-200": $primary-200,
+    "primary-300": $primary-300,
+    "primary-400": $primary-400,
+    "primary-600": $primary-600,
+    "primary-700": $primary-700,
+    "primary-800": $primary-800,
+    "primary-900": $primary-900
+);
+
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    6: ($spacer * 4),
+    7: ($spacer * 5),
+    8: ($spacer * 6),
+    9: ($spacer * 8),
+    10: ($spacer * 10)
+);
+
+/* Overriding */
+$white: hsl(220, 7%, 8%);
+$black: #fff;
+$text-muted: $gray-400;
+
+$body-bg: hsl(222, 15%, 5%);
+$body-color: $gray-800;
+
+$yiq-text-dark: $gray-100;
+$yiq-text-light: $black;
+
+$nav-pills-link-active-bg: $gray-900;
+$border-radius: .25rem;
+
+$code-color: $primary;
+
+$dropdown-border-color: $gray-100;
+$dropdown-divider-bg: $gray-100;
+
+$alert-border-width: 0;
+
+$modal-backdrop-bg: black;
+
+/* Card */
+$card-border-color: $gray-100;
+
+/* Pagination */
+$pagination-border-color: $gray-100;
+$pagination-disabled-border-color: $gray-100;
+$pagination-hover-bg: $gray-50;
+$pagination-hover-border-color: $gray-100;
+
+/* Inputs */
+$input-border-color: $gray-200;
+$input-color: $gray-600;
+
+/* Blockquote footer */
+$blockquote-small-color: $gray-800;
+
+@import "./bootstrap/bootstrap";
+
+/* Dropdown */
+.dropdown-toggle-simple::after {
+    display:none;
+}
+
+.dropdown-item > svg {
+    color: $gray-700;
+}
+
+.dropdown-item:focus > svg {
+    color: inherit;
+}
+
+/* Animate dropdown menu */
+.dropdown .dropdown-menu{
+    animation-name: opacityIn;
+    animation-duration: .15s;
+}
+
+@keyframes opacityIn {
+    from { opacity: .3; }
+    to { opacity: 1; }
+}
+
+/* Nav pills */
+.nav-pills {
+    .nav-link {
+        color: $gray-900;
+    }
+}
+
+/* Code */
+code {
+    background: $primary-100;
+    border-radius: $border-radius;
+    padding: .15rem;
+}
+
+/* Buttons */
+.btn {
+    border-style: solid;
+}
+
+/* D flex text truncate fix */
+.min-width-0 {
+    min-width: 0;
+}
+
+/* Extra variables */
+:root {
+    --black: #{$black};
+    --body-bg: #{$body-bg};
+    --body-color: #{$body-color};
+}
